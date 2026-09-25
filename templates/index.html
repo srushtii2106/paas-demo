@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Technology | PaaS Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">☁ CloudTech</div>
+        <div class="badge">PaaS Demo</div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero-content">
+        <div class="hero-text">
+            <p class="tag">CLOUD TECHNOLOGY WORKSHOP</p>
+
+            <h1>
+                Build. Deploy.
+                <span>Run in the Cloud.</span>
+            </h1>
+
+            <p class="intro">
+                This application demonstrates how a Python Flask application
+                can be deployed using Platform as a Service (PaaS).
+            </p>
+
+            <div class="buttons">
+                <a href="#models" class="btn primary">Explore Cloud</a>
+                <a href="#paas" class="btn secondary">How PaaS Works</a>
+            </div>
+        </div>
+
+        <div class="cloud-card">
+            <div class="cloud-icon">☁</div>
+            <h2>Application Status</h2>
+            <div class="status">
+                <span></span> Running in Cloud
+            </div>
+            <p>Python + Flask + Gunicorn</p>
+            <p>Hosted using PaaS</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" id="models">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="tag">CLOUD SERVICE MODELS</p>
+            <h2>Three Ways to Use the Cloud</h2>
+            <p>
+                Cloud services can be provided at different levels of
+                infrastructure and application management.
+            </p>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="card-icon">🖥️</div>
+                <h3>IaaS</h3>
+                <p class="subtitle">Infrastructure as a Service</p>
+                <p>
+                    Provides virtual machines, storage, networking and other
+                    infrastructure resources.
+                </p>
+                <div class="example">Example: AWS EC2</div>
+            </div>
+
+            <div class="card featured">
+                <div class="card-icon">⚙️</div>
+                <h3>PaaS</h3>
+                <p class="subtitle">Platform as a Service</p>
+                <p>
+                    Developers deploy applications while the platform manages
+                    much of the underlying infrastructure.
+                </p>
+                <div class="example">This Demo: Render</div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🌐</div>
+                <h3>SaaS</h3>
+                <p class="subtitle">Software as a Service</p>
+                <p>
+                    Complete software applications are delivered through the
+                    internet without managing the underlying infrastructure.
+                </p>
+                <div class="example">Example: Google Workspace</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="dark-section" id="paas">
+    <div class="container">
+
+        <div class="section-heading light">
+            <p class="tag">HOW PaaS WORKS</p>
+            <h2>From Code to Cloud</h2>
+        </div>
+
+        <div class="flow">
+
+            <div class="flow-item">
+                <div class="number">1</div>
+                <h3>Write Code</h3>
+                <p>Create a Python Flask application.</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="flow-item">
+                <div class="number">2</div>
+                <h3>GitHub</h3>
+                <p>Push your application source code.</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="flow-item">
+                <div class="number">3</div>
+                <h3>Build</h3>
+                <p>PaaS installs dependencies and prepares the app.</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="flow-item">
+                <div class="number">4</div>
+                <h3>Deploy</h3>
+                <p>The application becomes available on the internet.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="tag">WHY CLOUD?</p>
+            <h2>Key Benefits</h2>
+        </div>
+
+        <div class="benefits">
+
+            <div>
+                <h3>⚡ Scalability</h3>
+                <p>Resources can be increased or decreased based on demand.</p>
+            </div>
+
+            <div>
+                <h3>💰 Cost Efficiency</h3>
+                <p>Pay for resources and services according to your usage.</p>
+            </div>
+
+            <div>
+                <h3>🌍 Accessibility</h3>
+                <p>Applications can be accessed from anywhere through the internet.</p>
+            </div>
+
+            <div>
+                <h3>🚀 Faster Deployment</h3>
+                <p>Applications can be deployed without manually configuring servers.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="demo-section">
+    <div class="container demo-box">
+        <div>
+            <p class="tag">LIVE PRACTICAL</p>
+            <h2>This Website Is a PaaS Deployment</h2>
+            <p>
+                The Flask application was pushed to GitHub and deployed
+                automatically using a cloud PaaS platform.
+            </p>
+        </div>
+
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>GitHub</span>
+            <span>Render</span>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <p>Cloud Technology Workshop • PaaS Practical</p>
+        <p>Built with Python Flask</p>
+    </div>
+</footer>
+
+</body>
+</html>
